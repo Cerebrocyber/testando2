@@ -1,20 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const Homepastel = () => (
-  <div className='homepastel'>
-    <div className="homepastel-background"></div>
-    <section className='homepastel-content'>
+const Homecuruzu = () => (
+  <div className='homecuruzu'>
+    <div className="homecuruzu-background"></div>
+    <section className='homecuruzu-content'>
       <Link href='/' className='flex gap-2 flex-center'>
         <Image
-          src='/assets/images/logopastel.webp'
+          src='/assets/images/logocuruzu.webp'
           alt='logo'
           width={700}
           height={700}
-          className='logopastel'
+          className='logocuruzu'
         />
       </Link>
-      <p className="fraselogopastel">
+      <p className="fraselogocuruzu">
         FAÇA JÁ SUA ENCOMENDA!
       </p>
       <br className='max-md:hidden' />
@@ -72,13 +72,13 @@ const Homepastel = () => (
         height={60}
         className='qrcode'
       />
-      <Link href='/pasteldobairromenu'>
+      <Link href='/pastelariacuruzumenu'>
         <span className="button">
-          <p className="textbtpastel">CARDÁPIO</p>
+          <p className="textbtcuruzu">CARDÁPIO</p>
         </span>           
       </Link>      
     </section>
   </div>
 );
 
-export default Homepastel;
+export default Homecuruzu;

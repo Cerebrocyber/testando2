@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const Home = () => (
+const Homejacoia = () => (
   <div className='homejacoia'>
     <div className="homejacoia-background"></div>
     <section className='homejacoia-content'>
@@ -81,4 +81,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Homejacoia;
