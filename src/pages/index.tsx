@@ -72,7 +72,7 @@ const Home = () => (
         height={60}
         className='qrcode'
       />
-      <Link href='/constru'>
+      <Link href='public/assets/Ring_gremlins.mp3'>
         <span className="button">
           <p className="textbt">SAIBA MAIS</p>
         </span>           
