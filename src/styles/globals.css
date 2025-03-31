@@ -325,7 +325,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between; /* empurra o conteúdo de cima pra baixo */
   overflow: hidden;
 }
 
@@ -341,15 +341,12 @@
 }
 
 .homepage-content {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 0;
-  margin: 0;
-  height: 70%;
-  max-height: 90vh;
-  margin-top: 0;
+  justify-content: center;
+  padding-bottom: 20px; /* pra não colar os botões no limite */
 }
 
 .homepastel {
