@@ -63,7 +63,7 @@ const Home = () => {
         <Image src='/assets/images/qrcode.svg' alt='' width={60} height={60} className='qrcode' />
 
         {/* Player de áudio */}
-        <audio ref={audioRef} src="/assets/Ring_gremlins.mp3" />
+        <audio ref={audioRef} src="/assets/music1.mp3" />
 
         <div className="player-buttons" style={{ marginTop: '20px', display: 'flex', gap: '10px' }}>
           <button onClick={play} className="button"><p className="textbt">Play</p></button>
