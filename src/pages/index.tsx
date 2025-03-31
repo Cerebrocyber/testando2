@@ -68,10 +68,10 @@ const Home = () => {
         {/* Player de áudio */}
         <audio ref={audioRef} src="/assets/music1.mp3" />
 
-        <div className="player-buttons" style={{ marginTop: '20px', display: 'flex', gap: '10px' }}>
-          <button onClick={play} className="button"><p className="textbt">Play</p></button>
-          <button onClick={pause} className="button"><p className="textbt">Pause</p></button>
-          <button onClick={resetAndPlay} className="button"><p className="textbt">Reset</p></button>
+        <div className="player-buttons">
+            <button onClick={play} className="button"><p className="textbt">▶️ PLAY</p></button>
+            <button onClick={pause} className="button"><p className="textbt">⏸️ PAUSE</p></button>
+            <button onClick={resetAndPlay} className="button"><p className="textbt">🔁 RESET</p></button>
         </div>
       </section>
     </div>
