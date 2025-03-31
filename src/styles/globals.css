@@ -331,7 +331,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, #0b006b 100%, #1500d4 100%);
+  background: radial-gradient(circle, #FFC72C 0%, #FF6C00 100%);
   background-attachment: fixed;
   z-index: -1; /* Coloca a camada do fundo atrás do conteúdo */
 }
