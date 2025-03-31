@@ -36,20 +36,25 @@
   @apply flex justify-center items-center;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 .app {
   position: relative;
   top: -75px;
 }
 
 .bots {
-  width: 300px;
-  height: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 0px;
-  margin-left: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  flex-wrap: wrap; /* Prevê mobile */
 }
 
 .bot {
@@ -58,30 +63,26 @@
 }
 
 .qrcode {
-  width: 150px;
-  height: 150px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 20px;
 }
 
 .button {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  display: inline-block;
   width: 150px;
   height: 40px;
-  margin-top: 10px;
-  margin-right: 0px;
-  margin-bottom: 10px;
-  margin-left: 0px;
+  margin: 10px 0;
   border-radius: 4px;
   background-color: rgb(255, 196, 0);
-  transition: .3s;
+  transition: 0.3s;
   cursor: pointer;
+}
+
+.player-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .button:hover {
@@ -89,14 +90,6 @@
 }
 
 .textbt {
-  display: inline-block;
-  width: 150px;
-  height: 40px;
-  margin-top: 8px;
-  margin-right: 0px;
-  margin-bottom: 8px;
-  margin-left: 0px;
-  word-spacing: 0px;
   font-weight: 700;
   font-family: Helvetica;
   text-transform: uppercase;
@@ -323,10 +316,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+  overflow-x: hidden;
   position: relative;
-  overflow-y: auto;
 }
 
 .homepage-background {
@@ -341,14 +333,15 @@
 }
 
 .homepage-content {
+  flex: 1;
   width: 100%;
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  padding-bottom: 40px; /* espaço pra evitar corte */
+  justify-content: center;
+  padding-bottom: 40px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .homepastel {
