@@ -70,17 +70,17 @@ const Home = () => {
 
         <div className="player-buttons">
           <button onClick={play} className="button">
-            <img src="/assets/icons/play.png" alt="Play" />
+            <span style={{ fontSize: '22px' }}>▶️</span>
             <span>PLAY</span>
           </button>
 
           <button onClick={pause} className="button">
-            <img src="/assets/icons/pause.png" alt="Pause" />
+            <span style={{ fontSize: '22px' }}>⏸️</span>
             <span>PAUSE</span>
           </button>
 
           <button onClick={resetAndPlay} className="button">
-            <img src="/assets/icons/reset.png" alt="Reset" />
+            <span style={{ fontSize: '22px' }}>🔁</span>
             <span>RESET</span>
           </button>
         </div>
