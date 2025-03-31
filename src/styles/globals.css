@@ -73,7 +73,7 @@ html, body {
   padding: 12px 25px;
   font-size: 1rem;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 4px 6px #00000033;
   transition: transform 0.2s;
