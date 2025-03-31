@@ -67,35 +67,36 @@ html, body {
 }
 
 .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 40px;
-  margin: 10px 0;
-  border-radius: 4px;
-  background-color: rgb(255, 196, 0);
-  transition: 0.3s;
+  background-color: #ffd600;
+  color: #000;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
   cursor: pointer;
+  box-shadow: 0 4px 6px #00000033;
+  transition: transform 0.2s;
+  width: 120px;
+  min-width: 100px;
 }
 
-.player-buttons {
+player-buttons {
   display: flex;
+  flex-direction: row; /* sempre lado a lado */
   gap: 10px;
-  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap; /* permite quebrar se realmente não couber */
 }
 
 .button:hover {
-  box-shadow: 0 0 10px 0px black;
+  transform: scale(1.05);
 }
 
 .textbt {
-  font-weight: 700;
-  font-family: Helvetica;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 2px;
-  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
 }
 
 .logo-container {
