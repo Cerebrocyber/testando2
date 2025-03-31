@@ -69,10 +69,22 @@ const Home = () => {
         <audio ref={audioRef} src="/assets/music1.mp3" />
 
         <div className="player-buttons">
-            <button onClick={play} className="button"><p className="textbt">▶️ PLAY</p></button>
-            <button onClick={pause} className="button"><p className="textbt">⏸️ PAUSE</p></button>
-            <button onClick={resetAndPlay} className="button"><p className="textbt">🔁 RESET</p></button>
+          <button onClick={play} className="button">
+            <img src="/assets/icons/play.png" alt="Play" />
+            <span>PLAY</span>
+          </button>
+
+          <button onClick={pause} className="button">
+            <img src="/assets/icons/pause.png" alt="Pause" />
+            <span>PAUSE</span>
+          </button>
+
+          <button onClick={resetAndPlay} className="button">
+            <img src="/assets/icons/reset.png" alt="Reset" />
+            <span>RESET</span>
+          </button>
         </div>
+
       </section>
     </div>
   );
