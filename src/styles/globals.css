@@ -81,7 +81,7 @@ html, body {
   min-width: 100px;
 }
 
-player-buttons {
+.player-buttons {
   display: flex;
   flex-direction: row; /* sempre lado a lado */
   gap: 10px;
