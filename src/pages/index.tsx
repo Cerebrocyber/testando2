@@ -43,7 +43,7 @@ const Home = () => {
           ---
         </p>
 
-        <br className='max-md:hidden' />
+        <className='max-md:hidden' />
 
         <div className="bots">
           <Link href='tel:+5514996217032' className='flex gap-2 flex-center'>
