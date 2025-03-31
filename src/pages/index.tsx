@@ -28,7 +28,7 @@ const Home = () => {
       <section className='homepage-content'>
         <Link href='/' className='flex gap-2 flex-center'>
           <Image
-            src='/assets/images/imagiluz.png'
+            src='/assets/images/imagiluz2.png'
             alt='logo'
             width={700}
             height={700}
