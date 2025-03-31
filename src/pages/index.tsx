@@ -24,17 +24,20 @@ const Home = () => {
 
   return (
     <div className='homepage'>
-      <div className="homepage-background"></div>
-      <section className='homepage-content'>
-        <Link href='/' className='flex gap-2 flex-center'>
-          <Image
-            src='/assets/images/imagiluz2.png'
-            alt='logo'
-            width={700}
-            height={700}
-            className='logosmart'
-          />
-        </Link>
+  <div className="homepage-background"></div>
+  <section className='homepage-content'>
+
+    <Link href='/' className='flex gap-2 flex-center'>
+      <div className="logo-container">
+        <Image
+          src='/assets/images/imagiluz2.png'
+          alt='logo'
+          fill
+          className='logosmart'
+          style={{ objectFit: 'contain' }}
+        />
+      </div>
+    </Link>
 
         <p className="fraselogo">
           ---
