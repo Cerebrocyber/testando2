@@ -37,7 +37,7 @@ const Home = () => {
         </Link>
 
         <p className="fraselogo">
-          CARTÕES DIGITAIS INTERATIVOS
+          ---
         </p>
 
         <br className='max-md:hidden' />
