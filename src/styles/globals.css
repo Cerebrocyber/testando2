@@ -343,13 +343,13 @@
 .homepage-content {
   display: flex;
   flex-direction: column;
-  justify-content: flex;
+  justify-content: center;
   align-items: center;
   padding: 0;
   margin: 0;
-  height: 70%; /* Defina a altura desejada */
-  max-height: 90vh; /* Defina uma altura máxima para evitar que o conteúdo ultrapasse a altura da janela do navegador */
-  margin-top: 0; /* Define a margem superior como zero */
+  height: 70%;
+  max-height: 90vh;
+  margin-top: 0;
 }
 
 .homepastel {
