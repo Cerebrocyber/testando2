@@ -71,7 +71,7 @@ export default function HomePage() {
       {/* Rodapé */}
       <footer className="text-sm text-white opacity-80 text-center mt-10">
         <p>© 2025 Imagiluz. Todos os direitos reservados.</p>
-        <Link href="/">
+        <Link href="/" target="_blank" rel="noopener noreferrer">
           <Image
             src="/assets/images/imagiluz-sol.svg"
             alt="Logo"
