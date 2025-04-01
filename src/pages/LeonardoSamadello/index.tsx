@@ -71,7 +71,7 @@ const Home = () => {
 
         <footer className="footer">
           <p>© 2025 Imagiluz. Todos os direitos reservados.</p>
-          <img src="/assets/imagiluz-sol.svg" alt="Logo Imagiluz" className="footer-logo" />
+          <img src="/assets/images/imagiluz-sol.svg" alt="Logo Imagiluz" className="footer-logo" />
         </footer>
 
       </section>
