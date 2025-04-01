@@ -11,7 +11,7 @@ export default function HomePage() {
           alt="Logo Imagiluz"
           width={120}
           height={120}
-          className="mx-auto mb-4 animate-bounce"
+          className="mx-auto mb-4 animate-[float_3s_ease-in-out_infinite]"
         />
         {/* <h1 className="text-3xl font-bold mb-2">IMAGILUZ</h1> */}
         <p className="text-lg max-w-md mx-auto">
