@@ -132,7 +132,7 @@ html, body {
 .logosmart {
   animation: bounce 2s infinite;
   object-fit: contain;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 
