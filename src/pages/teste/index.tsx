@@ -38,7 +38,7 @@ export default function HomePage() {
       <section className="mt-16 max-w-3xl w-full">
         <h2 className="text-xl font-semibold text-center mb-6">Veja alguns exemplos</h2>
         <div className="flex flex-wrap justify-center gap-4">
-          <Link href="/leonardo">
+          <Link href="/leonardosamadello">
             <div className="bg-white p-4 rounded-lg text-black w-40 text-center shadow-lg hover:scale-105 transition-all">
               <p className="font-semibold">Leonardo</p>
               <p className="text-sm">🎵 Página musical</p>
