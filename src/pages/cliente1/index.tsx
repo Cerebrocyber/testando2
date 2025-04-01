@@ -31,7 +31,7 @@ const Home = () => {
     <Link href='/' className='flex gap-2 flex-center'>
       <div className="logo-container">
         <Image
-          src='/assets/images/imagiluz.svg'
+          src='/assets/images/leo.svg'
           alt='logo'
           fill
           className='logosmart'
