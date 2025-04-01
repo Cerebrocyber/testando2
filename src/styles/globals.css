@@ -49,19 +49,6 @@ html, body {
   top: -75px;
 }
 
-.bots {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  padding: 20px;
-  flex-wrap: wrap; /* Prevê mobile */
-}
-
-.bot {
-  width: 50px;
-  height: 50px;
-}
-
 .qrcode {
   margin-bottom: 20px;
 }
