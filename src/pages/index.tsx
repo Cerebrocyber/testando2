@@ -86,6 +86,10 @@ const Home = () => {
           </button>
         </div>
 
+        <footer className="footer">
+          © 2025 Imagiluz. Todos os direitos reservados.
+        </footer>
+
       </section>
     </div>
   );
