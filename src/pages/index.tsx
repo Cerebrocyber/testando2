@@ -38,10 +38,10 @@ const Home = () => {
         />
       </div>
     </Link>
-
-        <p className="fraselogo">
+        
+    {/* <p className="fraselogo">
           ---
-        </p>
+        </p> */}
 
     {/*<br className='max-md:hidden' /> */}
 
