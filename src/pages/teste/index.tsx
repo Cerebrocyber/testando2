@@ -46,7 +46,7 @@ export default function HomePage() {
           </Link>
           <Link href="/sofia">
             <div className="bg-white p-4 rounded-lg text-black w-40 text-center shadow-lg hover:scale-105 transition-all">
-              <p className="font-semibold">Sofia</p>
+              <p className="font-semibold">Manu</p>
               <p className="text-sm">🎵 Página musical</p>
             </div>
           </Link>
