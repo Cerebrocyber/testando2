@@ -7,7 +7,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="text-center mt-10">
         <Image
-          src="/assets/imagiluz-sol.svg"
+          src="/assets/images/imagiluz.svg"
           alt="Logo Imagiluz"
           width={80}
           height={80}
@@ -73,7 +73,7 @@ export default function HomePage() {
         <p>© 2025 Imagiluz. Todos os direitos reservados.</p>
         <Link href="/">
           <Image
-            src="/assets/imagiluz-sol.svg"
+            src="/assets/images/imagiluz-sol.svg"
             alt="Logo"
             width={30}
             height={30}
