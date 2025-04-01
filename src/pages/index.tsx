@@ -63,7 +63,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <Image src='/assets/images/qrcode.svg' alt='' width={60} height={60} className='qrcode' />
+        <Image src='/assets/images/qrcode.svg' alt='' width={120} height={120} className='qrcode' />
 
         {/* Player de áudio */}
         <audio ref={audioRef} src="/assets/music1.mp3" />
