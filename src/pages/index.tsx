@@ -60,7 +60,8 @@ export default function HomePage() {
         <h2 className="text-xl font-semibold mb-4">Fale com a gente</h2>
         <p className="mb-4">Clique no botão abaixo e tire suas dúvidas pelo WhatsApp:</p>
         <a
-          href="https://api.whatsapp.com/send?phone=5514998237788&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Imagiluz."
+          href="https://api.whatsapp.com/send?phone=5514998237788&text=Olá!%20Tenho%20interesse%20em%20criar%20uma%20música%20personalizada%20com%20a%20Imagiluz.%20Pode%20me%20ajudar%20a%20começar?"
+
           target="_blank"
           rel="noopener noreferrer"
         >
