@@ -9,8 +9,8 @@ export default function HomePage() {
         <Image
           src="/assets/images/imagiluz.svg"
           alt="Logo Imagiluz"
-          width={80}
-          height={80}
+          width={120}
+          height={120}
           className="mx-auto mb-4 animate-bounce"
         />
         {/* <h1 className="text-3xl font-bold mb-2">IMAGILUZ</h1> */}
