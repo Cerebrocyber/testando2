@@ -64,6 +64,7 @@ const Home = () => {
         </div>
 
         <Image src='/assets/images/qrcode.svg' alt='' width={120} height={120} className='qrcode' />
+        <p className="qr-text">Escaneie para ouvir no celular!</p>
 
         {/* Player de áudio */}
         <audio ref={audioRef} src="/assets/music1.mp3" />
