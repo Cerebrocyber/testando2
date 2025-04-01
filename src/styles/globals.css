@@ -66,6 +66,21 @@ html, body {
   margin-bottom: 20px;
 }
 
+.qr-text {
+  font-size: 0.95rem;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #00000066;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+  color: #ffffffaa;
+  text-align: center;
+}
+
 .button {
   background-color: #ffd600;
   color: #000;
