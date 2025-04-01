@@ -40,7 +40,7 @@ const Home = () => {
       </div>
     </Link>
         
-      <p className="fraselogo">
+      <p className="nome-cliente">
           LEONARDO
       </p>
 
