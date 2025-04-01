@@ -77,7 +77,7 @@ export default function HomePage() {
         url: window.location.href,
       });
     } else {
-      alert('Seu navegador não suporta compartilhamento direto.');
+      alert('Seu navegador não suporta compartilhamento direto...');
     }
   }}
 >
