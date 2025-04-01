@@ -40,9 +40,9 @@ const Home = () => {
       </div>
     </Link>
         
-    {/* <p className="fraselogo">
-          ---
-        </p> */}
+      <p className="fraselogo">
+          LEONARDO
+      </p> */}
 
     {/*<br className='max-md:hidden' /> */}
         
