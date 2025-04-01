@@ -369,3 +369,10 @@ html, body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+@font-face {
+  font-family: 'MergeProBold';
+  src: url('/fonts/MergePro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
