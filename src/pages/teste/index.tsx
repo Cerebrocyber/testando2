@@ -13,7 +13,7 @@ export default function HomePage() {
           height={80}
           className="mx-auto mb-4 animate-bounce"
         />
-        <h1 className="text-3xl font-bold mb-2">IMAGILUZ</h1>
+        {/* <h1 className="text-3xl font-bold mb-2">IMAGILUZ</h1> */}
         <p className="text-lg max-w-md mx-auto">
           A magia de aprender brincando em forma de música personalizada.
         </p>
