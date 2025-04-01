@@ -74,7 +74,7 @@ export default function HomePage() {
           <div className="flex justify-center items-center mt-2">
             <Link href="/" target="_blank" rel="noopener noreferrer">
               <Image
-                src="/assets/images/imagiluz-sol.svg"
+                src="/assets/images/imagiluz-sol-branco.svg"
                 alt="Logo"
                 width={30}
                 height={30}
