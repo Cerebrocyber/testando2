@@ -376,3 +376,10 @@ html, body {
   font-weight: normal;
   font-style: normal;
 }
+
+.nome-cliente {
+  font-family: 'MergeProBold', sans-serif;
+  font-size: 1.4rem;
+  color: white;
+  margin-top: 10px;
+}
