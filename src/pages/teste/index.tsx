@@ -77,7 +77,7 @@ export default function HomePage() {
             alt="Logo"
             width={30}
             height={30}
-            className="mx-auto mt-2"
+            className="footer-logo"
           />
         </Link>
       </footer>
