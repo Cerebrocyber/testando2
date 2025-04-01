@@ -10,7 +10,7 @@ const Constru = () => (
         className='constru'
       />      
       <p className="fraseconstru">
-        <h1>EM MANUTENÇÃO!</h1>
+        <h1>EM MANUTENÇÃO!!</h1>
       </p>
     </section>
 );
