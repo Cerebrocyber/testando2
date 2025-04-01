@@ -414,3 +414,8 @@ html, body {
   opacity: 0.9;
 }
 
+.logo-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+
