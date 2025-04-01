@@ -67,6 +67,26 @@ export default function HomePage() {
             Falar pelo WhatsApp
           </button>
         </a>
+        
+        <button
+  className="button textbt flex flex-col items-center"
+  onClick={() => {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Página Musical - Imagiluz',
+        text: 'Olha essa página musical personalizada incrível!',
+        url: window.location.href,
+      });
+    } else {
+      alert('Seu navegador não suporta compartilhamento direto.');
+    }
+  }}
+>
+  <img src="/assets/icons/share.svg" alt="Share" className="w-6 h-6 mb-1" />
+  COMPARTILHAR
+</button>
+
+        
       </section>
 
       {/* Rodapé */}
