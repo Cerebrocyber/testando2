@@ -57,7 +57,7 @@ export default function HomePage() {
       {/* Contato */}
       <section id="contato" className="mt-20 mb-10 text-center">
         <h2 className="text-xl font-semibold mb-4">Fale com a gente</h2>
-        <p className="mb-4">Clique no botão abaixo e tire suas dúvidas pelo WhatsApp:</p>
+        <p className="mb-4">Clique no botão abaixo e tire suas dúvidas pelo WhatsApp: X</p>
         <a
           href="https://api.whatsapp.com/send?phone=5514998237788&text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20Imagiluz."
           target="_blank"
