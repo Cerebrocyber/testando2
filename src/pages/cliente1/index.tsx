@@ -42,7 +42,7 @@ const Home = () => {
         
       <p className="fraselogo">
           LEONARDO
-      </p> */}
+      </p>
 
     {/*<br className='max-md:hidden' /> */}
         
