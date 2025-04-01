@@ -396,8 +396,12 @@ html, body {
   gap: 6px;
 }
 
-.footer-logo {
-  width: 28px;
-  height: 28px;
-  opacity: 0.8;
+@keyframes pulse-footer {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
 }
+
+.footer-logo {
+  animation: pulse-footer 2s ease-in-out infinite;
+}
+
