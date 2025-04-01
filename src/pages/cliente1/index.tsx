@@ -28,7 +28,7 @@ const Home = () => {
   <div className="homepage-background"></div>
   <section className='homepage-content'>
 
-    <Link href='/' className='flex gap-2 flex-center'>
+    <Link href='/cliente1' className='flex gap-2 flex-center'>
       <div className="logo-container">
         <Image
           src='/assets/images/leo.svg'
