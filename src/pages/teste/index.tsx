@@ -71,16 +71,18 @@ export default function HomePage() {
       {/* Rodapé */}
       <footer className="text-sm text-white opacity-80 text-center mt-10">
         <p>© 2025 Imagiluz. Todos os direitos reservados.</p>
-        <Link href="/" target="_blank" rel="noopener noreferrer">
-          <Image
-            src="/assets/images/imagiluz-sol.svg"
-            alt="Logo"
-            width={30}
-            height={30}
-            className="footer-logo"
-          />
-        </Link>
-      </footer>
+          <div className="flex justify-center items-center mt-2">
+            <Link href="/" target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/assets/images/imagiluz-sol.svg"
+                alt="Logo"
+                width={30}
+                height={30}
+                className="footer-logo"
+              />
+            </Link>
+          </div>
+        </footer>
     </div>
   );
 }
