@@ -46,7 +46,7 @@ const Home = () => {
 
     {/*<br className='max-md:hidden' /> */}
         
-        <Image src='/assets/images/qr-code-leonardo.png' alt='' width={120} height={120} className='qrcode' />
+        <Image src='/assets/images/qrmanu.png' alt='' width={120} height={120} className='qrcode' />
         <p className="qr-text">Escaneie para ouvir no celular!</p>
 
         {/* Player de áudio */}
