@@ -1,4 +1,3 @@
-
 'use client'
 
 import { useRef } from "react";
@@ -25,29 +24,40 @@ const Home = () => {
 
   return (
     <div className='homepage'>
-  <div className="homepage-background"></div>
-  <section className='homepage-content'>
+      <div className="homepage-background"></div>
+      <section className='homepage-content'>
 
-    <Link href='/cliente1' className='flex gap-2 flex-center'>
-      <div className="logo-container">
-        <Image
-          src='/assets/images/leo.svg'
-          alt='logo'
-          fill
-          className='logosmart'
-          style={{ objectFit: 'contain' }}
-        />
-      </div>
-    </Link>
-        
-      <p className="nome-cliente">
-          LEONARDO
-      </p>
+        <Link href='/cliente1' className='flex gap-2 flex-center'>
+          <div className="logo-container">
+            <Image
+              src='/assets/images/leo.svg'
+              alt='logo'
+              fill
+              className='logosmart'
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
+        </Link>
 
-    {/*<br className='max-md:hidden' /> */}
-        
+        <p className="nome-cliente">LEONARDO</p>
+
         <Image src='/assets/images/qrcode.svg' alt='' width={120} height={120} className='qrcode' />
-        <p className="qr-text">Escaneie para ouvir no celular!</p>
+
+        <div className="qr-text">
+          <p>Escaneie para ouvir no celular!</p>
+          <div className="text-white text-sm mt-1 flex items-center justify-center gap-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+            >
+              <path d="M9 3v12.56A4 4 0 1 0 11 19V8h7V3H9z" />
+            </svg>
+            <span>Uma música feita com amor só para Leonardo!</span>
+          </div>
+        </div>
 
         {/* Player de áudio */}
         <audio ref={audioRef} src="/assets/music1.mp3" />
@@ -79,4 +89,3 @@ const Home = () => {
 };
 
 export default Home;
-

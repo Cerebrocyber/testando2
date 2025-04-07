@@ -1,4 +1,3 @@
-
 'use client'
 
 import { useRef } from "react";
@@ -25,29 +24,42 @@ const Home = () => {
 
   return (
     <div className='homepage'>
-  <div className="homepage-background"></div>
-  <section className='homepage-content'>
+      <div className="homepage-background"></div>
+      <section className='homepage-content'>
 
-    <Link href='/cliente1' className='flex gap-2 flex-center'>
-      <div className="logo-container">
-        <Image
-          src='/assets/images/manu.png'
-          alt='logo'
-          fill
-          className='logosmart'
-          style={{ objectFit: 'contain' }}
-        />
-      </div>
-    </Link>
-        
-      <p className="nome-cliente">
+        <Link href='/cliente1' className='flex gap-2 flex-center'>
+          <div className="logo-container">
+            <Image
+              src='/assets/images/manu.png'
+              alt='logo'
+              fill
+              className='logosmart'
+              style={{ objectFit: 'contain' }}
+            />
+          </div>
+        </Link>
+
+        <p className="nome-cliente">
           MANU
-      </p>
+        </p>
 
-    {/*<br className='max-md:hidden' /> */}
-        
         <Image src='/assets/images/qrmanu.png' alt='' width={120} height={120} className='qrcode' />
-        <p className="qr-text">Escaneie para ouvir no celular!</p>
+
+        <div className="qr-text">
+          <p>Escaneie para ouvir no celular!</p>
+          <div className="text-white text-sm mt-1 flex items-center justify-center gap-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+            >
+              <path d="M9 3v12.56A4 4 0 1 0 11 19V8h7V3H9z" />
+            </svg>
+            <span>Uma música feita com amor só para Manu!</span>
+          </div>
+        </div>
 
         {/* Player de áudio */}
         <audio ref={audioRef} src="/assets/music2.mp3" />
@@ -71,11 +83,10 @@ const Home = () => {
 
         <footer className="footer">
           <p>© 2025 Imagiluz. Todos os direitos reservados.</p>
-            <a href="https://imagiluz.com.br" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/images/imagiluz-sol-branco.svg" alt="Logo Imagiluz" className="footer-logo" />
-            </a>
-</footer>
-
+          <a href="https://imagiluz.com.br" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/images/imagiluz-sol-branco.svg" alt="Logo Imagiluz" className="footer-logo" />
+          </a>
+        </footer>
 
       </section>
     </div>
@@ -83,4 +94,3 @@ const Home = () => {
 };
 
 export default Home;
-
