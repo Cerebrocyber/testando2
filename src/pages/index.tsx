@@ -4,8 +4,20 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-between bg-white text-black p-6">
+      {/* Logo no topo */}
+      <div className="w-full max-w-6xl flex justify-center mb-4">
+        <Image
+          src="/assets/images/Logo-texto.svg"
+          alt="Logo Imagiluz"
+          className="h-auto w-full max-w-[70%] md:max-w-[40%]"
+          width={0}
+          height={0}
+          sizes="(max-width: 768px) 80vw, 40vw"
+        />
+      </div>
+
       {/* Hero Section */}
-      <section className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-6xl gap-10 mt-10">
+      <section className="flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-6xl gap-10 mt-6">
         <div className="md:w-1/2 text-left">
           <h1 className="text-4xl font-bold leading-tight mb-4 text-gray-900">
             Toda história<br />
