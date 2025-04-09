@@ -9,7 +9,7 @@ export default function HomePage() {
         <Image
           src="/assets/images/Logo-texto.svg"
           alt="Logo Imagiluz"
-          className="h-auto w-full max-w-[70%] md:max-w-[40%]"
+          className="h-auto w-full max-w-[80%] md:max-w-[40%]"
           width={0}
           height={0}
           sizes="(max-width: 768px) 80vw, 40vw"
@@ -105,7 +105,7 @@ export default function HomePage() {
         {/* Botão WhatsApp */}
         <div className="mt-10 flex justify-center">
           <a
-            href="https://api.whatsapp.com/send?phone=5514998237788&text=Ol%C3%A1!%20Tenho%20interesse%20em%20criar%20uma%20m%C3%BAsica%20personalizada%20com%20a%20Imagiluz.%20Pode%20me%20ajudar%20a%20come%C3%A7ar%3F"
+            href="https://api.whatsapp.com/send?phone=5514998237788&text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20Imagiluz."
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 bg-[#25D366] text-white font-bold py-2 px-4 rounded-full shadow-md hover:scale-105 transition-all"
