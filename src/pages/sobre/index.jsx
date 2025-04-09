@@ -3,6 +3,18 @@ import Image from "next/image";
 export default function SobreNos() {
   return (
     <div className="flex flex-col min-h-screen bg-[#FFF8F3] text-black p-6">
+      {/* Logo no topo */}
+      <div className="w-full max-w-6xl flex justify-center mb-4">
+        <Image
+          src="/assets/images/Logo-texto.svg"
+          alt="Logo Imagiluz"
+          className="h-auto w-full max-w-[80%] md:max-w-[40%]"
+          width={0}
+          height={0}
+          sizes="(max-width: 768px) 80vw, 40vw"
+        />
+      </div>
+
       {/* Seção de abertura */}
       <section className="flex flex-col-reverse md:flex-row items-center justify-between max-w-6xl mx-auto gap-10 mt-10">
         <div className="md:w-1/2">
