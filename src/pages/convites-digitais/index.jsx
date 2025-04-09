@@ -9,9 +9,18 @@ export default function ConvitesDigitais() {
           <h1 className="text-4xl font-bold leading-tight mb-4 text-gray-900">
             Convites<br />Digitais
           </h1>
-          <p className="text-lg text-gray-700">
+          <p className="text-lg text-gray-700 mb-6">
             Convide com brilho. Para crianças, adultos e empresas.
           </p>
+          <a
+            href="https://api.whatsapp.com/send?phone=5514998237788&text=Ol%C3%A1!%20Tenho%20interesse%20em%20criar%20um%20convite%20digital%20com%20a%20Imagiluz.%20Pode%20me%20ajudar%20a%20come%C3%A7ar%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-yellow-400 text-black font-bold py-2 px-6 rounded-lg shadow hover:scale-105 transition-all">
+              Criar convite agora
+            </button>
+          </a>
         </div>
         <div className="md:w-1/2">
           <Image

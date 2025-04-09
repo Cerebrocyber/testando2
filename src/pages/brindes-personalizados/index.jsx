@@ -14,11 +14,15 @@ export default function BrindesPersonalizados() {
           <p className="text-lg text-gray-800 mb-6">
             Chaveiros, tags e muito mais. Feitos em MDF e no capricho.
           </p>
-          <Link href="#pedido">
+          <a
+            href="https://api.whatsapp.com/send?phone=5514998237788&text=Ol%C3%A1!%20Tenho%20interesse%20em%20fazer%20um%20pedido%20de%20brindes%20personalizados%20com%20a%20Imagiluz.%20Pode%20me%20ajudar%20a%20come%C3%A7ar%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="bg-orange-400 text-white font-bold py-2 px-6 rounded-lg shadow hover:scale-105 transition-all">
               Fazer pedido
             </button>
-          </Link>
+          </a>
         </div>
         <div className="md:w-1/2">
           <Image

@@ -14,11 +14,15 @@ export default function MusicasParaCriancas() {
           <p className="text-lg text-gray-700 mb-6">
             Uma canção só dela, com emoção, carinho e o seu nome.
           </p>
-          <Link href="#contato">
+          <a
+            href="https://api.whatsapp.com/send?phone=5514998237788&text=Ol%C3%A1!%20Tenho%20interesse%20em%20criar%20uma%20m%C3%BAsica%20personalizada%20com%20a%20Imagiluz.%20Pode%20me%20ajudar%20a%20come%C3%A7ar%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="bg-yellow-400 text-black font-bold py-2 px-6 rounded-lg shadow hover:scale-105 transition-all">
               Pedir música personalizada
             </button>
-          </Link>
+          </a>
         </div>
         <div className="md:w-1/2">
           <Image
