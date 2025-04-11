@@ -1,40 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎨 Design System – Projeto Carilo
 
-## Getting Started
+Bem-vindo ao guia de design system do seu projeto em Next.js com Tailwind.
+Essa estrutura foi criada para ser **escalável, semântica e de fácil manutenção**, pensando já em um futuro com equipe.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📁 Estrutura de tokens
+
+### Cores (tailwind.config.ts)
+```ts
+colors: {
+  primario: '#FF8100',         // Botões, ícones, destaques
+  secundario: '#FFCE00',       // Alertas, hover, indicadores
+  fundoCard: '#E0E0E0',         // Fundo de cards, caixas
+  textoSecundario: '#BDBDBD',   // Subtítulos, descrições
+  titulo: '#333333',            // Títulos fortes
+  textoPrincipal: '#000000',    // Corpo do texto
+  fundoGeral: '#FFFFFF',        // Background principal
+},
+```
+> Todos os componentes devem usar essas **nomenclaturas semânticas**.
+
+---
+
+## 🧩 Componentes base (exemplos)
+
+### Botão primário
+```tsx
+export function BotaoPrimario({ children }: { children: React.ReactNode }) {
+  return (
+    <button className="bg-primario text-fundoGeral hover:bg-secundario font-bold py-2 px-4 rounded">
+      {children}
+    </button>
+  );
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Card
+```tsx
+export function Card({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="bg-fundoCard text-textoPrincipal p-4 rounded shadow-md">
+      {children}
+    </div>
+  );
+}
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🧭 Padrões e boas práticas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **Use tokens semânticos** para tudo: cores, fontes, sombras, etc.
+- **Evite valores diretos** como `#fff`, `#000`, `px`, etc. Use as classes nomeadas.
+- **Crie componentes reutilizáveis** com base nesses padrões.
+- **Documente tudo** aqui ou no Notion.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 🛠️ To-do futuro
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] Adicionar tokens de tipografia
+- [ ] Adicionar tokens de espaçamento e radius
+- [ ] Criar mais componentes (Input, Header, Footer, etc.)
+- [ ] Documentar variantes para dark mode (se necessário)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> Essa base é só o começo. Você está criando um sistema que vai durar. 🚀
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Tamo junto, time do futuro. 👊
