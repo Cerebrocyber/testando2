@@ -9,7 +9,8 @@ export default function Leonardo5Anos() {
         <title>Leonardo 5 Anos - Missão com os Vingadores!</title>
         <meta property='og:title' content='Leonardo 5 Anos - Missão com os Vingadores!' />
         <meta property='og:description' content='Você foi convocado para a missão especial no aniversário do Leonardo!' />
-        <meta property='og:image' content='https://imagiluz.com.br/banners/leonardo-og.webp' />
+        <meta property='og:image' content='https://imagiluz.com.br/banners/leonardo-og.jpg' />
+        <meta property='og:image:secure_url' content='https://imagiluz.com.br/banners/leonardo-og.jpg' />
         <meta property='og:url' content='https://imagiluz.com.br/leonardo5anos' />
         <meta property='og:type' content='website' />
         <meta name='twitter:card' content='summary_large_image' />
