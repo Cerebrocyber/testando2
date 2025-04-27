@@ -1,8 +1,19 @@
 import { Header, Footer } from '@/components';
+import Head from 'next/head';
 import Image from 'next/image';
 
 export default function Leonardo5Anos() {
   return (
+    <>
+      <Head>
+        <title>Leonardo 5 Anos - Missão com os Vingadores!</title>
+        <meta property='og:title' content='Leonardo 5 Anos - Missão com os Vingadores!' />
+        <meta property='og:description' content='Você foi convocado para a missão especial no aniversário do Leonardo!' />
+        <meta property='og:image' content='https://imagiluz.com.br/banners/leonardo-og.webp' />
+        <meta property='og:url' content='https://imagiluz.com.br/leonardo5anos' />
+        <meta property='og:type' content='website' />
+        <meta name='twitter:card' content='summary_large_image' />
+      </Head>
     <div className="flex flex-col min-h-screen bg-green-900 text-white">
       <Header />
 
@@ -28,7 +39,7 @@ export default function Leonardo5Anos() {
       {/* Detalhes do Evento */}
       <section className="max-w-3xl mx-auto p-6 text-center">
         <p className="text-xl mb-4">Você foi convocado para uma missão especial no aniversário do Leonardo!</p>
-        <div className="bg-green-700 p-4 rounded-lg">
+        <div className="bg-green-800 p-4 rounded-lg">
           <p><strong>📍 Local:</strong> Parks & Games - Shopping Park Botucatu</p>
           <p>Av. Dr. José Amaro Faraldo, 1050 – Vila Real, Botucatu – SP</p>
           <p className="mt-2"><strong>📅 Data:</strong> 31/05/2025</p>
@@ -39,15 +50,16 @@ export default function Leonardo5Anos() {
 
       {/* Botões de Ação */}
       <section className="flex flex-col items-center gap-4 mb-10">
-        <a href="https://wa.me/5514996947699" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full">
+        <a href="https://wa.me/5514997661464?text=Al%C3%B4%2C%20central%20dos%20Vingadores%3F%20%F0%9F%98%84%20Estou%20confirmando%20que%20estarei%20no%20anivers%C3%A1rio%20do%20Leonardo!%20Sou%20[Digite%20seu%20nome]" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full">
           Confirmar Presença no WhatsApp
         </a>
-        <a href="https://www.google.com/maps/place/Parks+%26+Games+-+Shopping+Park+Botucatu/@-22.8835,-48.4432,17z" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-lg">
+        <a href="https://www.google.com/maps/place/Parks+%26+Games+-+Botucatu/@-22.9138422,-48.4681278,1007m/data=!3m1!1e3!4m10!1m2!2m1!1sPark+Games!3m6!1s0x94c6df2364319375:0x6099cb53a87d87aa!8m2!3d-22.914879!4d-48.4641308!15sCgpQYXJrIEdhbWVzIgOIAQFaDCIKcGFyayBnYW1lc5IBDmFtdXNlbWVudF9wYXJrqgFCEAEqDiIKcGFyayBnYW1lcygMMh4QASIaM_RH5dtMA0gFc0_qK2pePYs18tGri61Y0oIyDhACIgpwYXJrIGdhbWVz4AEA!16s%2Fg%2F11g6yhnh_7?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoJLDEwMjExNjM5SAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-lg">
           Ver Local no Google Maps
         </a>
       </section>
 
       <Footer />
     </div>
+    </>
   );
 }
