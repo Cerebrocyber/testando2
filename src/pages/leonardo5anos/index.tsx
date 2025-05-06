@@ -61,9 +61,9 @@ export default function Leonardo5Anos() {
             href="https://wa.me/5514997555002?text=Al%C3%B4%2C%20central%20dos%20Vingadores%3F%20%F0%9F%98%84%20Estou%20confirmando%20que%20estarei%20no%20anivers%C3%A1rio%20do%20Leonardo!%20Sou%20[Digite%20seu%20nome]%20(Convidado%20do%20Pai)"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full w-full sm:flex-1 text-center"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold h-20 flex flex-col justify-center px-6 rounded-full w-full sm:w-[220px] text-center whitespace-nowrap"
           >
-            <span className="block">Papai me convidou</span>
+            <span className="block whitespace-nowrap">Papai me convidou</span>
             <span className="block text-sm">Confirmar presença</span>
           </a>
 
@@ -72,9 +72,9 @@ export default function Leonardo5Anos() {
             href="https://wa.me/5514997661464?text=Al%C3%B4%2C%20central%20dos%20Vingadores%3F%20%F0%9F%98%84%20Estou%20confirmando%20que%20estarei%20no%20anivers%C3%A1rio%20do%20Leonardo!%20Sou%20[Digite%20seu%20nome]%20(Convidado%20da%20Mam%C3%A3e)"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-full w-full sm:flex-1 text-center"
+            className="bg-pink-500 hover:bg-pink-600 text-white font-bold h-20 flex flex-col justify-center px-6 rounded-full w-full sm:w-[220px] text-center whitespace-nowrap"
           >
-            <span className="block">Mamãe me convidou</span>
+            <span className="block whitespace-nowrap">Mamãe me convidou</span>
             <span className="block text-sm">Confirmar presença</span>
           </a>
         </section>
