@@ -50,17 +50,18 @@ export default function Leonardo5Anos() {
           </div>
         </section>
 
+        
         {/* Botões de Ação */}
         <p className="text-yellow-300 font-semibold mb-2 text-center px-4">
           ⚠️ Confirme sua presença até <strong>21/05/2025</strong>!
         </p>
-        <section className="flex flex-col sm:flex-row justify-center items-center gap-y-4 sm:gap-x-4 mb-10 px-4 max-w-2xl mx-auto">
+        <section className="flex flex-col sm:flex-row justify-center items-center gap-y-2 sm:gap-x-4 mb-4 px-4 max-w-2xl mx-auto">
           {/* Botão Pai - Azul */}
           <a
             href="https://wa.me/5514997555002?text=Al%C3%B4%2C%20central%20dos%20Vingadores%3F%20%F0%9F%98%84%20Estou%20confirmando%20que%20estarei%20no%20anivers%C3%A1rio%20do%20Leonardo!%20Sou%20[Digite%20seu%20nome]%20(Convidado%20do%20Pai)"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full flex-1 sm:flex-none text-center"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full w-full sm:flex-1 text-center"
           >
             <span className="block">Papai me convidou</span>
             <span className="block text-sm">Confirmar presença</span>
@@ -71,12 +72,14 @@ export default function Leonardo5Anos() {
             href="https://wa.me/5514997661464?text=Al%C3%B4%2C%20central%20dos%20Vingadores%3F%20%F0%9F%98%84%20Estou%20confirmando%20que%20estarei%20no%20anivers%C3%A1rio%20do%20Leonardo!%20Sou%20[Digite%20seu%20nome]%20(Convidado%20da%20Mam%C3%A3e)"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-full flex-1 sm:flex-none text-center"
+            className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-full w-full sm:flex-1 text-center"
           >
             <span className="block">Mamãe me convidou</span>
             <span className="block text-sm">Confirmar presença</span>
           </a>
         </section>
+
+        <p className="text-yellow-200 font-semibold text-center px-4 mt-[4px] mb-4">🛡️&nbsp;Pedimos que um responsável acompanhe a criança durante toda a festa. Os monitores do parque são apenas apoio.</p>
 
         {/* Botão Local - Verde */}
         <section className="flex justify-center mb-10 px-4 md:px-0">
